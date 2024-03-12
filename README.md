@@ -6,7 +6,7 @@ API: ([Rest Countries API](https://restcountries.com/v3.1/all))
 
 ## Live Links
 
-[surge](react-world-tour.yamin.surge.sh)
+[surge](http://react-world-tour.yamin.surge.sh)
 [netlify](https://react-world-tour-yamin.netlify.app/)
 
 # React + Vite
