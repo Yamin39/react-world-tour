@@ -1,0 +1,39 @@
+.Countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* display: flex;
+    flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.visited-countries-container {
+    width: fit-content;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.flags-container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  .Countries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 640px) {
+  .Countries {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
